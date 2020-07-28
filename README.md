@@ -1,2 +1,2 @@
 # Useful-Python-Scripting
-This repository contains some useful Python scripting in Computational Chemistry.
+This repository contains some useful Python scripts in Computational Chemistry.
