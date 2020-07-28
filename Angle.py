@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # This script takes coordinates of three atoms and obtains the angle between two chemical bonds.
 # Title:	Angle.py
-# Author:	Reza
+# Author:	Reza Hemmati
 # Created	03/07/2018
 #
 # USAGE
