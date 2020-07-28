@@ -1,5 +1,25 @@
 #!/usr/bin/python
 # This script takes coordinates of three atoms and obtains the angle between two chemical bonds.
+# Title:	Angle.py
+# Author:	Reza
+# Created	03/07/2018
+#
+# USAGE
+#	Angle.py  x1,y1,z1  x2,y2,z2  x3,y3,z3
+#
+# This script is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This script is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <https://www.gnu.org/licenses/>.
+#
 
 import sys, os, math
 import os.path
