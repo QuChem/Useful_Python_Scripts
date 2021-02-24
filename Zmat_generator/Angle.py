@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 # This code calculates the angle between two chemical bonds.
-# This code takes coordinates of three atoms and obtains the angle between two chemical bons.
 
 import sys, os, math
 import os.path
@@ -15,7 +14,7 @@ def length(v):
   return math.sqrt(dotproduct(v, v))
 
 def angle(v1, v2):
-  return math.acos(dotproduct(v1, v2) / (length(v1) * length(v2)))*(180.0/(math.pi))
+  return math.acos(dotproduct(v1, v2) / (length(v1) * length(v2))) * (180.0/ math.pi)
 
 if (len(sys.argv) < 4):
 	sys.stderr.write('Wrong number of arguments!\n')
