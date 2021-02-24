@@ -1,0 +1,22 @@
+C
+C  1   a
+O  2   b    1   theta1
+H  1   c    2   theta2    3    dihedral1
+H  2   d    1   theta3    3    dihedral2
+H  2   e    1   theta4    3    dihedral3
+C  1   f    2   theta5    3    dihedral4
+H  7   g    1   theta6    2    dihedral5
+H  7   h    1   theta7    2    dihedral7
+O  7   i    1   theta8    2    dihedral8
+H  10  j    7   theta9    1    dihedral9
+C  1   k   7    theta10   10   dihedral10
+C  12  l   1    theta11   7    dihedral11
+O  13  m   12   theta12   1    dihedral12
+H  12  n   13   theta13   14   dihedral13
+H  13  o   12   theta14   14   dihedral14
+H  13  p   12   theta15   14   dihedral15
+C  12  q   13   theta16   14   dihedral16
+H  18  r   12   theta17   13   dihedral17
+H  18  s   12   theta18   13   dihedral18
+O  18  t   12   theta19   13   dihedral19
+H  21  u   18   theta20   12   dihedral20
