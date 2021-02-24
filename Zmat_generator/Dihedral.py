@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
-# This code calculates Dihedral angle between chemical bonds.
-# This code takes coordinates of four atoms and obtains the dihedral angle of chemical bons.
+# This code calculates the dihedral angle between chemical bonds.
+# It takes coordinates of four atoms and gives the dihedral angle of chemical bonds.
 
 import sys, os, math
 import os.path
@@ -12,16 +12,16 @@ def dotproduct(v1, v2):
   return sum((a*b) for a, b in zip(v1, v2))
 
 def cross(a, b):
-    cross_p = [a[1]*b[2] - a[2]*b[1],
-         a[2]*b[0] - a[0]*b[2],
-         a[0]*b[1] - a[1]*b[0]]
+    cross_p = [a[1] * b[2] - a[2] * b[1],
+               a[2] * b[0] - a[0] * b[2],
+               a[0] * b[1] - a[1] * b[0]]
     return cross_p
 
 def length(v):
   return math.sqrt(dotproduct(v, v))
 
 def angle(v1, v2):
-  return math.acos(dotproduct(v1, v2) / (length(v1) * length(v2)))*(180.0/(math.pi))
+  return math.acos(dotproduct(v1, v2) / (length(v1) * length(v2))) * (180.0 / math.pi)
 
 if (len(sys.argv) < 5):
 	sys.stderr.write('Wrong number of arguments!\n')
@@ -72,9 +72,9 @@ m1=cross(n1,b2norm)
 x=dotproduct(n1,n2)
 y=dotproduct(m1,n2)
 
-dihedral=math.atan2(y,x)*(180.0/math.pi)
+dihedral=math.atan2(y,x) * (180.0 / math.pi)
 if dihedral>=0.0:
-  dihedral=360.0-dihedral
+  dihedral=360.0 - dihedral
 else:
   dihedral=-dihedral
 print ("\nTHE DIHEDRAL ANGLE BETWEEN THOSE CHEMICAL BONDS IS {} DEGREE.\n".format(dihedral))
