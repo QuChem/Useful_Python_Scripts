@@ -56,7 +56,7 @@ c = map(float, c)
 vec1 = map(sub, a, b)
 if length(vec1) == 0:
 	sys.stderr.write('\nCannot calculate angle for vectors with length zero.\n')
-        sys.exit(1)
+	sys.exit(1)
 #print (vec1)
 
 vec2 = map(sub, c, b)
