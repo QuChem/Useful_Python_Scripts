@@ -67,5 +67,5 @@ if length(vec2) == 0:
 
 theta = angle(vec1, vec2)
 
-print "\nTHE ANGLE BETWEEN THOSE CHEMICAL BONDS IS {} DEGREE.\n".format(theta)
+print ("\nTHE ANGLE BETWEEN THOSE CHEMICAL BONDS IS {} DEGREE.\n".format(theta))
 #end of the file
